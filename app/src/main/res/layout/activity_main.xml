@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal"
+        android:rowCount="2"
+        android:columnCount="1">
+
+
+        <Button
+            android:id="@+id/Btnnavegador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Navegar"
+            android:textSize="10dp" />
+
+        <Button
+            android:id="@+id/Btnllamar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Llamar"
+            android:textSize="10dp" />
+
+    </GridLayout>
+
+
+
+
+</RelativeLayout>
